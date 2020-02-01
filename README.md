@@ -1,3 +1,4 @@
-# leetcode
+# LeetCode Solutions
 
-# Adding all my leet code solutions here - keeping this public, so that anyone can make use of it.
+# Maintaining an archive of solutions to some of the LeetCode problems, these are not necessarily the best solutions, just
+# keeping an archive for personal & public reference.
