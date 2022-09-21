@@ -1,16 +1,8 @@
 
-
 void duplicateZeros(int* arr, int arrSize){
     int i = 0, j = 0;
-    int *newarr = NULL;
+    int newarr[arrSize];
     int nsize = sizeof(int) * arrSize;
-        
-    /* Allocate a new array */ 
-    newarr = (int *)malloc(nsize);
-    if (!newarr) {
-        return;
-    }
-    memset(newarr, 0, nsize);
     
     i = 0, j = 0;
     while (1) {
@@ -37,5 +29,4 @@ void duplicateZeros(int* arr, int arrSize){
     }
     
     memcpy(arr, newarr, nsize);
-    free(newarr);
 }
